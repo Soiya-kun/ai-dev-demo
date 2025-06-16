@@ -1,0 +1,16 @@
+{
+  "name": "api-server",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@prisma/client": "^6.9.0",
+    "@trpc/server": "^11.4.1",
+    "fastify": "^5.4.0"
+  }
+}
